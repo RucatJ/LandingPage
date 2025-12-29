@@ -84,7 +84,8 @@ button {
     border-radius: 10px;
     border-style: none;
     transition: 0.4s;
-    flex: 0 0 fit-content;
+    max-height: fit-content;
+    align-self: center;
 }
 
 button:hover {
@@ -139,14 +140,13 @@ button:hover {
 }
 
 .poster {
+    gap: 30px;
     display: flex;
-    width: 70vw;
+    width: 50vw;
     background-color:cornflowerblue;
     padding: 50px;
     border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 60px auto;
     justify-content: space-between;
 }
 
@@ -174,5 +174,5 @@ img {
 
 .a {background-image: url(./images/Birdbox.png);}
 .b {background-image: url(./images/Peanutbutter.png);}
-.c {background-image: url(./images/Ref1.png);}
+.c {background-image: url(./images/BURGA.png);}
 .d {background-image: url(./images/CAT.webp);}
